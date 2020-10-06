@@ -676,22 +676,22 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Products
 --------------------------------------------------------------*/
-.services {
+.products {
   background: #2d405f;
   padding-bottom: 80px;
 }
 
-.services .section-title h2, .services .section-title p {
+.products .section-title h2, .products .section-title p {
   color: #fff;
 }
 
-.services .section-title h2::after {
+.products .section-title h2::after {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.services .icon-box {
+.products .icon-box {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
@@ -701,15 +701,15 @@ section {
   text-align: center;
 }
 
-.services .icon-box:hover {
+.products .icon-box:hover {
   transform: scale(1.08);
 }
 
-.services .icon {
+.products .icon {
   margin-bottom: 15px;
 }
 
-.services .icon i {
+.products .icon i {
   font-size: 32px;
   line-height: 1;
   color: #2d405f;
@@ -719,42 +719,42 @@ section {
   transition: all 0.3s;
 }
 
-.services .title {
+.products .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.products .title a {
   color: #2d405f;
   transition: 0.3s;
 }
 
-.services .title a:hover {
+.products .title a:hover {
   color: #4e6fa4;
 }
 
-.services .description {
+.products .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Solutions
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.solutions .solutions-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.solutions #solutions-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.solutions #solutions-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -768,16 +768,16 @@ section {
   border-radius: 3px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.solutions #solutions-flters li:hover, .solutions #solutions-flters li.filter-active {
   color: #fff;
   background: #3b4ef8;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.solutions #solutions-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.solutions .solutions-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -785,7 +785,7 @@ section {
   background: rgba(45, 64, 95, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.solutions .solutions-wrap::before {
   content: "";
   background: rgba(45, 64, 95, 0.6);
   position: absolute;
@@ -798,11 +798,11 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+.solutions .solutions-wrap img {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.solutions .solutions-wrap .solutions-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -818,13 +818,13 @@ section {
   padding: 20px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.solutions .solutions-wrap .solutions-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.solutions .solutions-wrap .solutions-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -833,12 +833,12 @@ section {
   font-style: italic;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.solutions .solutions-wrap .solutions-links {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.solutions .solutions-wrap .solutions-links a {
   color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
@@ -846,19 +846,19 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.solutions .solutions-wrap .solutions-links a:hover {
   color: #9da7fc;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.solutions .solutions-wrap:hover::before {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.solutions .solutions-wrap:hover img {
   transform: scale(1.2);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.solutions .solutions-wrap:hover .solutions-info {
   opacity: 1;
 }
 
@@ -943,14 +943,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Resources
 --------------------------------------------------------------*/
-.team {
+.resources {
   background: #fff;
   padding: 60px 0;
 }
 
-.team .member {
+.resources .member {
   text-align: center;
   margin-bottom: 20px;
   background: #343a40;
@@ -958,7 +958,7 @@ section {
   overflow: hidden;
 }
 
-.team .member .member-info {
+.resources .member .member-info {
   opacity: 0;
   position: absolute;
   bottom: 0;
@@ -968,7 +968,7 @@ section {
   transition: 0.2s;
 }
 
-.team .member .member-info-content {
+.resources .member .member-info-content {
   position: absolute;
   left: 0;
   right: 0;
@@ -976,21 +976,21 @@ section {
   transition: bottom 0.4s;
 }
 
-.team .member .member-info-content h4 {
+.resources .member .member-info-content h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-.team .member .member-info-content span {
+.resources .member .member-info-content span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-.team .member .social {
+.resources .member .social {
   position: absolute;
   left: 0;
   bottom: -38px;
@@ -1000,34 +1000,34 @@ section {
   text-align: center;
 }
 
-.team .member .social a {
+.resources .member .social a {
   transition: color 0.3s;
   color: rgba(255, 255, 255, 0.7);
   margin: 0 10px;
   display: inline-block;
 }
 
-.team .member .social a:hover {
+.resources .member .social a:hover {
   color: #fff;
 }
 
-.team .member .social i {
+.resources .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
 
-.team .member:hover .member-info {
+.resources .member:hover .member-info {
   background: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
 
-.team .member:hover .member-info-content {
+.resources .member:hover .member-info-content {
   bottom: 60px;
   transition: bottom 0.4s;
 }
 
-.team .member:hover .social {
+.resources .member:hover .social {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
 }
@@ -1357,18 +1357,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Solutions Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.solutions-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.solutions-details .solutions-details-carousel .owl-nav, .solutions-details .solutions-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot {
+.solutions-details .solutions-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -1377,34 +1377,34 @@ section {
   background-color: #ddd !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
+.solutions-details .solutions-details-carousel .owl-dot.active {
   background-color: #3b4ef8 !important;
 }
 
-.portfolio-details .portfolio-info h3 {
+.solutions-details .solutions-info h3 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #2d405f;
 }
 
-.portfolio-details .portfolio-info ul {
+.solutions-details .solutions-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.solutions-details .solutions-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-info p {
+.solutions-details .solutions-info p {
   font-size: 15px;
   padding: 15px 0 0 0;
 }
 
 @media (max-width: 992px) {
-  .portfolio-details .portfolio-info {
+  .solutions-details .solutions-info {
     padding-top: 20px;
   }
 }
