@@ -1,6 +1,6 @@
 /**
-* Template Name: Bikin - v2.1.0
-* Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
+* Template Name: B34m - v2.1.0
+* Template URL: https://bootstrapmade.com/B34m-free-simple-landing-page-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
